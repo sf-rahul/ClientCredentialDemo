@@ -5,8 +5,8 @@
 public class HttpCalloutClientCredential {
 
     
-    private static final string client_id = 'XXXXXXXXXXXXXXXXXXXX';
-    private static final string client_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXX';
+    private static final string client_id = 'XXXXXXXXXXXXXXXXXXXX'; // get this from connected app of the target org
+    private static final string client_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXX'; //get this from connected app of the target org
     private static final string  grant_type = 'client_credentials';
     
     public static void  createdAccountRecord(){
